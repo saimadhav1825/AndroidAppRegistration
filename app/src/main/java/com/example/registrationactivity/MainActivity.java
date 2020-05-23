@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         ca= findViewById(R.id.ca);
         ca.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 int i=id.getCheckedRadioButtonId();
                 RadioButton rb=id.findViewById(i);
                 String aname=name.getText().toString();
